@@ -1,11 +1,16 @@
 #include<stdio.h>
-#define how_many_times_to_say_hello 1000
+#define how_many_times_to_say_hello 3
 int main (void)
 {
-	int i;
-	for (i = 0; i < how_many_times_to_say_hello; i++) {	
-		printf("hello word \n");
-		}
-	return 0;
+    say_three_hi();
+    return 0;
 }
 
+void say_three_hi()
+{
+	int i;
+	for (i = 0; i < how_many_times_to_say_hello; i++) 
+    {	
+	    printf("hello word \n");
+	}
+}
