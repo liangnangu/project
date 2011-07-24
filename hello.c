@@ -4,6 +4,7 @@ void say_three_hi ();
 int main (void)
 {
     say_three_hi();
+    say_three_hi();
     return 0;
 }
 
